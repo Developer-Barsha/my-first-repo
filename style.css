@@ -3,7 +3,7 @@
     margin: 0;
 } 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 h1{
     font-size: 50px;
@@ -12,8 +12,14 @@ h1 span{
     color: orange;
     padding-bottom: 5px;
 }
-.first{
+p{
+    padding: 20px 0;
+    margin-bottom: 15px;
+}
+section{
     display: flex;
+}
+.first{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     margin-bottom: 30px;
@@ -21,10 +27,6 @@ h1 span{
 .intro{
     width: 50%;
     padding: 7%;
-}
-p{
-    padding: 20px 0;
-    margin-bottom: 15px;
 }
 .intro img{
     width: 100%;
@@ -40,21 +42,16 @@ p{
     text-transform: uppercase;
 }
 .second{
-    display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom right;
 }
-.intro-t, .intro-m{
+.third{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.third div{
     width: 50%;
-}
-.sec-img{
-    width: 80%;
-    padding: 0 0 0 75px;
-}
-.intro-t{
-    padding-top: 70px;
-    text-align: justify;
-    padding-right: 20px;
-    padding-left: 10px;
+    display: flex;
 }
