@@ -8,15 +8,15 @@ body{
 h1{
     font-size: 50px;
 }
-h1 span{
+.orange{
     color: orange;
-    padding-bottom: 5px;
+    padding-bottom: l;
 }
 p{
     padding: 20px 0;
     margin-bottom: 15px;
 }
-section{
+.flex-container{
     display: flex;
 }
 .first{
@@ -27,6 +27,9 @@ section{
 .intro{
     width: 50%;
     padding: 7%;
+}
+.intro h3{
+    padding-top: 10px;
 }
 .intro img{
     width: 100%;
@@ -41,8 +44,62 @@ section{
     font-weight: 800;
     text-transform: uppercase;
 }
+.button:hover{
+    
+    background-image: linear-gradient( #fd93bd, #FF569A);
+}
 .second{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+}
+.third{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 210px;
+}
+.para h1{
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+.heading{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.para{
+    width: 50%;
+    margin: 3%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+    text-align: justify;
+}
+.para p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #696969;
+}
+#b-orange{
+    border-left: 7px solid;
+    border-image: linear-gradient(#FF9873, #FF6448);
+    border-image-slice: 1;
+}
+#b-blue{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, aqua);
+    border-image-slice: 1;
+}
+#b-blue:hover{
+    background-color: #76bef181;
+    transition:1s;
+}
+#b-orange:hover{
+    background-color: #eba05b81;
+    transition:1s;
+}
+footer p{
+    text-align: center;
+    padding-top: 50px;
+    color: #696969;
+    font-size: 17px;
 }
