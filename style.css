@@ -46,12 +46,3 @@ section{
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.third{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: flex;
-}
-.third div{
-    width: 50%;
-    display: flex;
-}
